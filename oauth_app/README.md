@@ -37,6 +37,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_app_icon"></a> [app\_icon](#input\_app\_icon) | The url to the application's icon. A Font Awesome icon (fa://fa-icon-name) or URL (full or relative). | `string` | `null` | no |
 | <a name="input_app_launch_url"></a> [app\_launch\_url](#input\_app\_launch\_url) | The url to launch when the user clicks on the authentik application. If left empty, authentik will try to extract the launch URL based on the selected provider. Has no impact on SSO. | `string` | `null` | no |
 | <a name="input_app_name"></a> [app\_name](#input\_app\_name) | The name of the authentik application. | `string` | n/a | yes |
 | <a name="input_app_slug"></a> [app\_slug](#input\_app\_slug) | The "slug" for the application used in login urls. No spaces. Valid url characters only. | `string` | n/a | yes |
